@@ -1,0 +1,262 @@
+/* Media queries */
+
+@media screen and (max-width: 400px) {
+
+  .mobile-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;   
+  }
+  
+ .mobile-menu input:checked ~ .menu-img :first-child {
+   display: none;
+ }
+
+ .mobile-menu input:not(:checked) ~ .menu-img :last-child {
+   display: none;
+ }
+
+  #hamburguesa:checked ~ .nav-menu-movil {
+    transform: translateX(0%);
+  }
+
+  header {
+    margin: auto auto;
+    display: block;
+  }
+  
+  .desktop-menu, .logo {
+    display: none;
+  }
+    
+  .nav-menu-movil a:link, 
+  :visited {
+    color: #ffffff;
+    text-decoration-line: none;
+  }
+
+  .nav-menu-movil a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+
+  .description {
+    padding: 29px 16px 16px 16px;
+    width: 100%;
+    position: inherit;
+  }
+
+  .description h1 {
+    font-size: 36px;
+    margin: 0px 0px; 
+    padding-right: 50px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .p-mobile {
+    display: block;
+  }  
+
+  .description p {
+    margin-top: 16px;
+    }
+    
+  .description :nth-child(2) {
+    display: none;
+  }
+
+  header button {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .episodes {
+   top: 303px;
+   height: 1203px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .episodes h2 {
+    top: 64px;
+    left: 16px;
+  }
+  
+  .podcast {
+    margin: 0px 11px 0px 11px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .podcast iframe {
+    width: 100%;
+    margin-top: 150px;
+    padding-top: auto;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: auto;
+  }
+
+  iframe:nth-child(2), iframe:nth-child(3), iframe:last-child {
+    margin-top: 11px;
+  }
+
+  .we {
+    display: block;
+    margin-top: 248px;
+    margin-left: 10px;
+  }
+
+  .phone {
+    width: 340px;
+    height: 519px;
+  }
+  
+  .we div {
+    margin-left: 16px;
+  }
+
+  .we h2 {
+    width: 288px;
+  }
+
+  .we p {
+    width: 100%;
+    height: 254px;
+  }
+
+  .guests {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .guests h2 {
+    width: 288px;
+    margin-top: 54px;
+    margin-left: 16px;
+  }
+  
+  .container-fotos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .guests img {
+    width: 100%;
+  }
+
+   .topics {
+    width: 288px;
+    margin-top: 48px;
+    margin-left: 16px;
+    margin-right: auto;
+  }
+
+  .item-topics {
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+  }
+
+  h4 {
+    margin-top: 13px;
+    margin-bottom: 36px;
+  }
+
+  .news {
+    width: 100%;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .diagonal-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+    z-index: -9999;
+  }
+
+  footer button {
+    font-size: 16px;
+    width: 85%;
+    height: 48px;
+          
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .bottom p {
+    width: 100%;
+    display: flex;
+    margin-right: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .icons { 
+    margin: 16px 16px 31px 16px;
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .bottom div a {
+    width: 16px;
+    color: #060a24;
+  }
+
+  .bottom div a:nth-child(2),
+  .bottom div a:nth-child(3),
+  .bottom div a:nth-child(4),
+  .bottom div a:last-child {
+    padding-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .we {
+    margin-left: 0px;
+  }
+
+  .guests {
+    margin-top: 50px;
+  }
+
+  .guests img {
+    width: 320px;
+  }
+}
+
+

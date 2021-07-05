@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcast Daniela Pinchetti</title>
+    <link rel="stylesheet" href="./CSS Estilos/1_Header.css" />
+    <link rel="stylesheet" href="./CSS Estilos/2_Main.css" />
+    <link rel="stylesheet" href="./CSS Estilos/3_Footer.css" />
+    <link rel="stylesheet" href="./CSS Estilos/elements-styles.css" />
+    <link rel="stylesheet" href="./CSS Estilos/mobile-styles.css" />
+    <link rel="stylesheet" href="./CSS Estilos/Media-queries.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="./Recursos/icons/logo.svg" alt="" />
+      <nav class="desktop-menu desktop-menu-font">
+        <ul class="item-nav">
+          <li><a href="#episodios">EPISODIOS</a></li>
+          <li><a href="#nosotros">NOSOTROS </a></li>
+          <li><a href="#entrevistas">ENTREVISTAS</a></li>
+          <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </nav>
+
+      <!-- Version movil -->
+
+      <nav class="mobile-menu">
+        <img class="logo-mobile" src="./Recursos/icons/logo.svg" alt="">
+        <!-- Cuando hago checkbox -->
+        <input type="checkbox" id="hamburguesa"/>     
+        <label class="menu-img" for="hamburguesa">
+          <img src="./Recursos/icons/hamburguesa.svg" alt="burger"/>
+          <img src="./Recursos/icons/simbolo-x.svg" alt="">
+        </label>
+        
+        <ul class="nav-menu-movil nav-mobil-font">
+          <li><a href="#episodios">EPISODIOS</a></li>
+          <li><a href="#nosotros">NOSOTROS</a></li>
+          <li><a href="#entrevistas">ENTREVISTAS</a></li>
+          <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </nav>
+
+      <div class="description">
+        <h1>
+          Hello <strike> world</strike> pale blue dot <span class="dot">.</span>
+        </h1>
+        <p>
+          El portal de podcast que explora el mundo de la programación y la
+          tecnología. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <p class="p-mobile">Un podcast que explora el mundo de la programación. 
+          Nuevos episodios, todos los jueves cada 15 días. </p>
+        <button
+          class="button-font"
+          onclick="location.href='#nosotros'"
+          type="button"
+        >
+          CONOCÉ MÁS
+        </button>
+      </div>
+
+    </header>
+
+    <main>
+
+      <section class="episodes" id="episodios">
+        <div class="diagonal"></div>
+        <h2>Episodios</h2>
+        <div class="podcast">
+          <iframe
+            src="https://open.spotify.com/embed/episode/5UK6szP2HQ27OSiUmG2Jru"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/episode/5Sny2sPAAyZm8t2C9g85Td"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/show/5JxcIaIkN8zx3Zy7yD9snv"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/episode/4YXqauPtJfX1GJGYBEqBdi"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="we" id="nosotros">
+        <img
+          class="phone"
+          src="./Recursos/images/phone.png"
+          alt="Mary Allen Wilkes"
+        />
+        <div>
+          <h2>De dónde venimos</h2>
+          <p>
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.<br />Our planet is a lonely speck in the
+            great enveloping cosmic dark. In our obscurity, in all this
+            vastness, there is no hint that help will come from elsewhere to
+            save us from ourselves.
+          </p>
+        </div>
+      </section>
+
+      <section class="guests" id="entrevistas">
+        <h2>Invitadas/os estelares</h2>
+        <div class="container-fotos">
+          <img src="./Recursos/images/1. grace-hopper.png" alt="Grace Hopper" />
+          <img src="./Recursos/images/2. Katie-Bouman.png" alt="Katie Bouman" />
+          <img
+            src="./Recursos/images/3. Margaret_Hamilton.png"
+            alt="Margaret Hamilton"
+          />
+          <img
+            src="./Recursos/images/4. An E.R.A.Univac 1103 computer in the 1950s.png"
+            alt=""
+          />
+          <img
+            src="./Recursos/images/5. Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+            alt=""
+          />
+          <img src="./Recursos/images/6. susan-kare.png" alt="Susan Kare" />
+        </div>
+      </section>
+
+      <section class="topics" id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="item-topics">
+          <article>
+            <img src="./Recursos/icons/icon1.svg" alt="Trabajo remoto" />
+            <h4>Trabajo remoto</h4>
+          </article>
+          <article>
+            <img src="./Recursos/icons/icon2.svg" alt="" />
+            <h4>Repensando la programación</h4>
+          </article>
+          <article>
+            <img src="./Recursos/icons/icon3.svg" alt="" />
+            <h4>Bases del código</h4>
+          </article>
+          <article>
+            <img src="./Recursos/icons/icon4.svg" alt="" />
+            <h4>Seguridad informática</h4>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="news">
+        <div class="diagonal-2"></div>
+        <h2>¿Querés las últimas novedades?</h2>
+        <button class="button-font" onclick="location.href='#episodios'">
+          ESCUCHÁ LOS EPISODIOS
+        </button>
+      </section>
+
+      <section class="bottom">
+        <p>© 2019— Hello blue pale dot</p>
+        <div class="icons">
+          <a href="https://www.spotify.com" target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.telegram.org" target="_blank">
+            <i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

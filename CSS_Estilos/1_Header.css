@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 100px;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .item-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .desktop-menu li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0px 20px;
+  }
+  
+  .desktop-menu ul {
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .desktop-menu-font {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #060a24;
+    letter-spacing: 0px;
+    line-height: 26px;
+  }
+  
+  .item-nav a:link,
+  :visited {
+    color: #060a24;
+    text-decoration-line: none;
+  }
+  
+  .item-nav li a:active {
+    text-decoration-line: line-through;
+    color: #060a24;
+  }
+  
+  .item-nav a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+  
+  /* Encabezado */
+  
+  .description {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+  }
+  
+  .description h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    padding-right: 50px;
+  }
+  
+  .description :nth-child(2) {
+    width: 628px;
+    margin-bottom: 56px;
+  }
+  
+  .dot {
+    color: #0000ec;
+  }
+  

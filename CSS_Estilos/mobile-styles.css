@@ -1,0 +1,60 @@
+.mobile-menu {
+  height: 44px;
+  width: 100%;
+  display: none;
+}
+
+.mobile-menu .logo-mobile {
+  margin-left: 16px;
+}
+
+.mobile-menu label {
+  margin-right: 16px;
+}
+
+.mobile-menu li {
+  list-style-type: none;
+}
+
+.logo-mobile {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-img :last-child {
+  width: 15px;
+ }
+
+.nav-menu-movil {
+  position: fixed;
+  width: 100%;
+  top: 60px;  
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+  }
+
+.nav-menu-movil li {
+  width: 100%;
+  padding: 10px 16px;
+  background-color: #0000ec;
+  font-weight: 300;
+  cursor: pointer;  
+}
+
+.nav-mobil-font{
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.p-mobile {
+  width: 100%;
+  margin-bottom: 36px;  
+}
+
+#hamburguesa, .p-mobile {
+  display: none;
+}
+
+
